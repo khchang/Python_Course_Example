@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "C:\\Python\\Python37\\python.exe",
+    "python.linting.pylintPath": "C:\\Python\\Python37\\Scripts\\pylint.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=PyQt5",
+        "--extension-pkg-whitelist=cv2"
+    ],
+    "editor.fontSize": 16
+}
