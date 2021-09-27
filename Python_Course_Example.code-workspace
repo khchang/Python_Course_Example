@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "ch1"
+		},
+		{
+			"path": "ch2"
 		}
-	]
+	],
+	"settings": {}
 }
