@@ -1,5 +1,11 @@
 {
     "editor.fontSize": 16,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=PyQt5",
+        "--extension-pkg-whitelist=cv2"
+    ],
     "python.autoComplete.addBrackets": true,
     "python.autoComplete.extraPaths": [
         "C:\\Python\\Python39\\Lib\\site-packages",
