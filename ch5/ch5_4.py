@@ -8,12 +8,8 @@ else:
     print(f"{num} 是奇數")
 
 # Python風格
-if rem:
+if rem:     # if (value)，value不為0則為true。
     print(f"{num} 是奇數")
 else:
     print(f"{num} 是偶數")
-
-# 高手用法
-print(f"{num} 是奇數" if rem else f"{num} 是偶數")
-
 
