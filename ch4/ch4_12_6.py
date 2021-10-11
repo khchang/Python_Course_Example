@@ -1,13 +1,12 @@
 # ch4_12_6.py
-sp = " " * 40
-print("%s   1231 Delta Rd" % sp)
-print("%s   Oxford, Mississippi" % sp)
-print("%s   USA\n\n\n" % sp)
-print("Dear Ivan")
-print("I am pleased to inform you that your application for fall 2020 has")
-print("been favorably reviewed by the Electrical and Computer Engineering")
-print("Office.\n\n")
-print("Best Regards")
-print("Peter Malong")
+sp = " " * 40						# sp = 40個空格
+print("%s   國立虎尾科技大學" % sp)
+print("%s   電機工程系 系統控制研究室" % sp)
+print("%s   63201雲林縣虎尾鎮文化路64號\n\n" % sp)
 
-
+sp = " " * 4
+print("各位同學大家好：")
+print("%s本課程將於11/15~11/21舉行期中考。" % sp)
+print("請大家盡早做好準備。\n\n")
+print("祝 平安 順心\n")
+print("張凱雄")
