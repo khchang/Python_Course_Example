@@ -1,5 +1,5 @@
 # ch6_40.py
-string = "Deep Learning"                # 定義字串
+string = "National Formosa University"                # 定義字串
 print("列印string第0-2元素     = ", string[0:3])
 print("列印string第1-3元素     = ", string[1:4])
 print("列印string第1,3,5元素   = ", string[1:6:2])

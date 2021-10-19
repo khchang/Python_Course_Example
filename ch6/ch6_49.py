@@ -1,10 +1,10 @@
 # ch6_49.py
-mysports = ['basketball', 'baseball']
+mysports = ['籃球', '棒球']
 sports1 = mysports          # 賦值
 sports2 = mysports[:]       # 切片拷貝新串列
-print("我喜歡的運動 = ", mysports, "位址是 = ", id(mysports))
-print("運動 1       = ", sports1,  "位址是 = ", id(sports1))
-print("運動 2       = ", sports2,  "位址是 = ", id(sports2))
+print("我喜歡的運動 = ", mysports, "位址是 = ", hex(id(mysports)))
+print("運動 1       = ", sports1,  "位址是 = ", hex(id(sports1)))
+print("運動 2       = ", sports2,  "位址是 = ", hex(id(sports2)))
 boolean_value = mysports is sports1
 print("我喜歡的運動 is 運動 1     = ", boolean_value)
 

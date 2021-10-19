@@ -1,5 +1,5 @@
 # ch6_41.py
-string = "Deep Learning"                # 定義字串
+string = "National Formosa University"                # 定義字串
 strlen = len(string)
 print("字串長度", strlen)
 maxstr = max(string)
