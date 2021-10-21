@@ -1,5 +1,6 @@
 # ch4_12_3.py
 title = "國立虎尾科技大學"
+print("/{0:^20s}/".format(title))
 print("/{0:*^20s}/".format(title))
 print("/{0:#^20s}/".format(title))
 
