@@ -1,5 +1,5 @@
 # ch6_5.py
-warriors = ['Curry', 'Durant', 'Iquodala', 'Bell', 'Thompson']
+warriors = ['A', 'B', 'C', 'D', 'E']
 first3 = warriors[:3]				# 列印前3個索引(0,1,2)的元素值
 print("前3名球員",first3)
 n_to_last = warriors[1:]			# 列印索引1到其後的元素值

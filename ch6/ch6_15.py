@@ -8,6 +8,7 @@ if len(cars) != 0:
 else:
     print("cars串列內沒有元素資料")
 print('========== 我是分隔線 ==========')
+
 nums = []
 print(f"nums串列長度是 = {len(nums)}")
 if len(nums) != 0:
