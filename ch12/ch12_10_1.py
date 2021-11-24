@@ -3,7 +3,7 @@ class Father():
     def __init__(self):
         self.__address = '台北市羅斯福路'
     def getaddr(self):
-        return self.__address
+        return self.__address   # 在公有方法回傳私有屬性
 
 class Son(Father):
     pass

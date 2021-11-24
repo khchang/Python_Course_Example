@@ -22,13 +22,13 @@ class Banks():
 
     def usa_to_taiwan(self, usa_d):         # 美金兌換台幣方法
         self.result = self.__cal_rate(usa_d)
-        return self.result
+        return self.result                  # 在公有方法回傳私有屬性
 
     def __cal_rate(self,usa_d):             # 計算換匯這是私有方法
         return int(usa_d * self.__rate * (1 - self.__service_charge))
 
     def bank_title(self):                   # 獲得銀行名稱
-        return self.__bankname
+        return self.__bankname              # 在公有方法回傳私有屬性
 
 class Shilin_Banks(Banks):
     # 定義士林分行
