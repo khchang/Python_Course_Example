@@ -1,4 +1,6 @@
 # ch12_3.py
+# 設計一個類別，內含查詢餘額的方法。
+
 class Banks():
     ''' 定義銀行類別 '''
     bankname = 'Taipei Bank'                # 定義屬性
@@ -10,7 +12,10 @@ class Banks():
         return self.balance
 
 hungbank = Banks('hung', 100)               # 定義物件hungbank
-print(hungbank.name.title( ), " 存款餘額是 ", hungbank.get_balance())
+                                            # 將'hung'傳給uname
+                                            # 將100傳給money
+
+print(hungbank.name.title(), " 存款餘額是 ", hungbank.get_balance())
 
 
 

@@ -1,4 +1,6 @@
 # ch12_5.py
+# 定義兩個物件使用同一類別
+
 class Banks():
     ''' 定義銀行類別 '''
     bankname = 'Taipei Bank'                # 定義屬性

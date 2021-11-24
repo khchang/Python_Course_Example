@@ -1,4 +1,6 @@
 # ch12_4.py
+# 設計一個類別，內含存款、提款、查詢餘額的方法。
+
 class Banks():
     ''' 定義銀行類別 '''
     bankname = 'Taipei Bank'                # 定義屬性

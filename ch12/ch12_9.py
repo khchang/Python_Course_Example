@@ -1,4 +1,6 @@
 # ch12_9.py
+# 在類別內以"私有方法"計算美金轉台幣的換匯公式
+
 class Banks():
     ''' 定義銀行類別 '''
 
@@ -26,10 +28,13 @@ class Banks():
 
     def __cal_rate(self,usa_d):             # 計算換匯這是私有方法
         return int(usa_d * self.__rate * (1 - self.__service_charge))
+        # 美金換匯台幣公式 = 美金 * 匯率 * (1 - 換匯的服務費)
         
 hungbank = Banks('hung')                    # 定義物件hungbank
 usdallor = 50
 print(usdallor, " 美金可以兌換 ", hungbank.usa_to_taiwan(usdallor), " 台幣") 
+
+# print(hungbank._Banks__cal_rate(50))  #破解私有方法，在私有方法前加上_Banks
 
 
 

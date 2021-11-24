@@ -1,4 +1,6 @@
 # ch12_7.py
+# 類別外直接竄改存款餘額，這是我們不希望發生的。
+
 class Banks():
     ''' 定義銀行類別 '''
 
@@ -20,7 +22,7 @@ class Banks():
 
 hungbank = Banks('hung')                    # 定義物件hungbank
 hungbank.get_balance()
-hungbank.balance = 10000                    # 類別外直接竄改存款餘額
+hungbank.balance = 10000                    # 類別外直接竄改存款餘額，這是我們不希望發生的。
 hungbank.get_balance()
 
 

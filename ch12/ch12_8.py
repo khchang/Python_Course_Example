@@ -1,4 +1,6 @@
 # ch12_8.py
+# __balance為Banks的私有屬性，無法從外部修改。
+
 class Banks():
     ''' 定義銀行類別 '''
 
