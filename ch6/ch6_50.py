@@ -1,5 +1,5 @@
 # ch6_50.py
-drinks = ["coffee", "tea", "wine"]
+drinks = ["咖啡", "茶", "酒"]
 enum_drinks = enumerate(drinks)        # 數值初始是0
 print(enum_drinks)                     # 傳回enumerate物件所在記憶體
 print("下列是輸出enumerate物件類型")

@@ -6,7 +6,3 @@ print("CIA出現的次數: ",msg.count("CIA"))		# count(): 計算"CIA"在msg出�
 msg = msg.replace('Linda','Lxx')				# 將msg中的"Linda"取代為Lxx
 print("新的msg內容 : ", msg)
 
-
-
-
-

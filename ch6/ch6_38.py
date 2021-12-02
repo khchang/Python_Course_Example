@@ -12,4 +12,3 @@ print("列出mysports位址     = ", hex(id(mysports)))
 print("列出friendsports位址 = ", hex(id(friendsports)))
 print("我喜歡的最新運動     = ", mysports)
 print("我朋友喜歡的最新運動 = ", friendsports)
-                   
