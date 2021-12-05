@@ -1,7 +1,7 @@
 # ch7_31.py
 # enumerate是由索引值與元素值配對呈現。
 
-drinks = ["coffee", "tea", "wine"]
+drinks = ["咖啡", "茶", "酒"]
 # 解析enumerate物件
 for drink in enumerate(drinks):             # 數值初始是0
     print(drink)

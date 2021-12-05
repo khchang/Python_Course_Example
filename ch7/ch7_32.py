@@ -6,19 +6,3 @@ for count, score in enumerate(scores, 1):   # 數值初始是 1, count為列舉�
         print(f"場次 {count} : 得分 {score} ")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-
-
