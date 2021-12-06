@@ -14,7 +14,7 @@ class Uncle(Grandfather):
     def action2(self):      # 定義action2()
         print("Uncle")
 
-class Ivan(Father, Uncle):
+class Ivan(Father, Uncle):  # 優先權：由左至右
     """ 定義Ivan類別 """
     def action4(self):
         print("Ivan")
