@@ -7,8 +7,8 @@ def guest_info(firstname, lastname, gender, middlename = ''):
         welcome = lastname + middlename + firstname + '小姐歡迎妳'
     return welcome
 
-info1 = guest_info('濤', '劉', 'M')
-info2 = guest_info('雨', '洪', 'F', '冰')
+info1 = guest_info('明', '張', 'M')
+info2 = guest_info('花', '林', 'F', '小')
 print(info1)
 print(info2)
 

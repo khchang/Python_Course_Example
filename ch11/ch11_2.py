@@ -4,21 +4,26 @@
 print("Python歡迎你")
 print("祝福學習順利")
 print("謝謝")
+print("*****************")
 
 print("Python歡迎你")
 print("祝福學習順利")
 print("謝謝")
+print("*****************")
 
 print("Python歡迎你")
 print("祝福學習順利")
 print("謝謝")
+print("*****************")
 
 print("Python歡迎你")
 print("祝福學習順利")
 print("謝謝")
+print("*****************")
 
 print("Python歡迎你")
 print("祝福學習順利")
 print("謝謝")
+print("*****************")
 
 

@@ -4,4 +4,5 @@ def greeting(name):
     print("Hi,", name, "Good Morning!")
 
 greeting('Nelson')
+greeting('kh')
 
