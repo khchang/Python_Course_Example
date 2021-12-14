@@ -1,5 +1,5 @@
 # ch11_27.py
-def printmsg( ):
+def printmsg():
     """ 函數本身沒有定義變數, 只有執行列印全域變數功能 """
     print("函數列印: ", msg)    # 列印全域變數
 

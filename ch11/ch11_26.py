@@ -2,8 +2,10 @@
 def factorial(n):
     """ 計算n的階乘, n 必須是正整數 """
     if n == 1:
+        print(n)
         return 1
     else:
+        print(n, "*", end=" ")
         return (n * factorial(n-1))
 
 value = 3
