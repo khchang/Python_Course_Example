@@ -2,8 +2,48 @@
   "header": {
     "comment": "eric tasks file for project ch25",
     "warning": "This file was generated automatically, do not edit.",
-    "saved": "2021-12-20, 13:57:17"
+    "saved": "2021-12-21, 13:57:30"
   },
   "ProjectScanFilter": "",
-  "Tasks": []
+  "Tasks": [
+    {
+      "summary": "WARNING: Any manual changes made to this file will be lost when pyuic5 is",
+      "description": "",
+      "priority": 1,
+      "lineno": 7,
+      "completed": false,
+      "created": 1640066191.7118754,
+      "type": 2,
+      "uid": "{7389e231-f2b0-422b-8864-0eaaaa9502ec}",
+      "parent_uid": "",
+      "expanded": false,
+      "filename": "D:\\Course_Region\\Python_Course_Example\\ch25\\ui\\Ui_ch25_1.py"
+    },
+    {
+      "summary": "TODO: not implemented yet",
+      "description": "",
+      "priority": 1,
+      "lineno": 32,
+      "completed": false,
+      "created": 1640066191.7178593,
+      "type": 1,
+      "uid": "{72bc2b4d-0ea1-41b4-9304-ca3ad58d3ca0}",
+      "parent_uid": "",
+      "expanded": false,
+      "filename": "D:\\Course_Region\\Python_Course_Example\\ch25\\ui\\ch25_1.py"
+    },
+    {
+      "summary": "TODO: not implemented yet",
+      "description": "",
+      "priority": 1,
+      "lineno": 40,
+      "completed": false,
+      "created": 1640066191.7248387,
+      "type": 1,
+      "uid": "{0f89d89b-ffdf-4411-8e3a-bda3a28df028}",
+      "parent_uid": "",
+      "expanded": false,
+      "filename": "D:\\Course_Region\\Python_Course_Example\\ch25\\ui\\ch25_1.py"
+    }
+  ]
 }

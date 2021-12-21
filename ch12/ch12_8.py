@@ -24,6 +24,8 @@ hungbank = Banks('hung')                    # 定義物件hungbank
 hungbank.get_balance()
 hungbank.__balance = 10000                  # 類別外直接竄改存款餘額
 hungbank.get_balance()
+hungbank.save_money(1000)
+hungbank.get_balance()
 
 
 
