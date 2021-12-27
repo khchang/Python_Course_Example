@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric tasks file for project ch25",
     "warning": "This file was generated automatically, do not edit.",
-    "saved": "2021-12-21, 13:57:30"
+    "saved": "2021-12-27, 10:37:26"
   },
   "ProjectScanFilter": "",
   "Tasks": [
@@ -12,9 +12,9 @@
       "priority": 1,
       "lineno": 7,
       "completed": false,
-      "created": 1640066191.7118754,
+      "created": 1640572260.487009,
       "type": 2,
-      "uid": "{7389e231-f2b0-422b-8864-0eaaaa9502ec}",
+      "uid": "{4194b544-14db-40b6-b50b-1b04a754c90e}",
       "parent_uid": "",
       "expanded": false,
       "filename": "D:\\Course_Region\\Python_Course_Example\\ch25\\ui\\Ui_ch25_1.py"
@@ -25,9 +25,9 @@
       "priority": 1,
       "lineno": 32,
       "completed": false,
-      "created": 1640066191.7178593,
+      "created": 1640572260.4920228,
       "type": 1,
-      "uid": "{72bc2b4d-0ea1-41b4-9304-ca3ad58d3ca0}",
+      "uid": "{99cdb477-7fb7-4153-934a-49a1941c1369}",
       "parent_uid": "",
       "expanded": false,
       "filename": "D:\\Course_Region\\Python_Course_Example\\ch25\\ui\\ch25_1.py"
@@ -38,9 +38,9 @@
       "priority": 1,
       "lineno": 40,
       "completed": false,
-      "created": 1640066191.7248387,
+      "created": 1640572260.4929929,
       "type": 1,
-      "uid": "{0f89d89b-ffdf-4411-8e3a-bda3a28df028}",
+      "uid": "{598eead6-63a2-407b-9940-ebd26fb2afe9}",
       "parent_uid": "",
       "expanded": false,
       "filename": "D:\\Course_Region\\Python_Course_Example\\ch25\\ui\\ch25_1.py"

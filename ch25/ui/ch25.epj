@@ -2,7 +2,7 @@
   "header": {
     "comment": "eric project file for project ch25",
     "copyright": "Copyright (C) 2021 , ",
-    "saved": "2021-12-20, 13:57:17"
+    "saved": "2021-12-27, 10:37:26"
   },
   "project": {
     "AUTHOR": "",
@@ -35,7 +35,8 @@
       "makefile": "OTHERS"
     },
     "FORMS": [
-      "ch25_1.ui"
+      "ch25_1.ui",
+      "ch25_2.ui"
     ],
     "HASH": "0e5fbd4917ba37d770b6e9bec627ee2060cc4f52",
     "IDLPARAMS": {
@@ -72,7 +73,9 @@
     "SOURCES": [
       "__init__.py",
       "Ui_ch25_1.py",
-      "ch25_1.py"
+      "ch25_1.py",
+      "ch25_2.py",
+      "Ui_ch25_2.py"
     ],
     "SPELLEXCLUDES": "",
     "SPELLLANGUAGE": "en_US",
