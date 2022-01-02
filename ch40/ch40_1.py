@@ -8,7 +8,7 @@ import requests
 def line_notify():
 
     # token = "E7AoXInAnnnKpHPWGZDRt3g6hilNJfETg6y7kQNSdix" # 聊天室
-    token = "sGEixOukPN5Iw5Nsr24ZU2naOFQFbuJThKVIW4qTUAf"   # 個人
+    token = "YskG1vGeWISsQdlYyOjyeRObmmBxUhSmU28MmJTDf0L"   # 個人
     message = "Hello World! \n這是測試文字!"
 
     # line notify所需資料

@@ -15,8 +15,8 @@ def lineNotify(token, msg, picURI):
     return r.status_code
  
  
-token = "sGEixOukPN5Iw5Nsr24ZU2naOFQFbuJThKVIW4qTUAf"   # 個人
-msg = "Hello World!\nLine Notify 傳圖測試"
-picURI = "Naruto.png"
+token = "YskG1vGeWISsQdlYyOjyeRObmmBxUhSmU28MmJTDf0L"   # 個人
+msg = "\n國立虎尾科技大學\n電機工程系\n系統控制研究室\nLine傳訊傳圖測試"
+picURI = "photo_1.jpg"
  
 lineNotify(token, msg, picURI)
