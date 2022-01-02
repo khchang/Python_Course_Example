@@ -7,7 +7,7 @@ class Person():
 
 class LawerPerson(Person):
     def __init__(self,name):
-        self.name = name + "律師"
+        self.name = name + "工程師"
 
 hung = Person("nfu")
 lawer = LawerPerson("kh")

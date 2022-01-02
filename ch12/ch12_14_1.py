@@ -6,21 +6,21 @@ class Animals():
         self.age = animal_age   # 紀錄動物年齡
 
     def run(self):              # 輸出動物 is running
-        print(self.name.title(), " is running")
+        print(self.name.title(), " 正在跑")
 
 class Dogs(Animals):
     """Dogs類別, 這是Animal的衍生類別 """
     def __init__(self, dog_name, dog_age):
-        super().__init__('My pet ' + dog_name.title(), dog_age)
+        super().__init__('我的寵物 ' + dog_name.title(), dog_age)
     def sleeping(self):
-        print("My pet", "is sleeping")
+        print("我的寵物", "正在睡覺")
 
-mycat = Animals('lucy', 5)      # 建立Animals物件以及測試
-print(mycat.name.title(), ' is ', mycat.age, " years old.")
+mycat = Animals('小白', 5)      # 建立Animals物件以及測試
+print(mycat.name.title(), ' 是 ', mycat.age, " 歲")
 mycat.run()
 
 mydog = Dogs('lily', 6)         # 建立Dogs物件以及測試
-print(mydog.name.title(), ' is ', mydog.age, " years old.")
+print(mydog.name.title(), ' 是 ', mydog.age, " 歲")
 mydog.run()
 mydog.sleeping()
 

@@ -5,7 +5,7 @@ class Banks():
     def __init__(self, uname):              # 初始化方法
         self.__name = uname                 # 設定私有存款者名字
         self.__balance = 0                  # 設定私有開戶金額是0
-        self.bankname = "Taipei Bank"       # 設定公有銀行名稱
+        self.bankname = "台北銀行"          # 設定公有銀行名稱
         self.__rate = 30                    # 預設美金與台幣換匯比例
         self.__service_charge = 0.01        # 換匯的服務費
 
@@ -33,7 +33,7 @@ class Banks():
 class Shilin_Banks(Banks):
     # 定義士林分行
     def __init__(self, uname):
-        self.bankname = "Taipei Bank - Shilin Branch"  # 定義分行名稱
+        self.bankname = "台北銀行 - 士林分行"  # 定義分行名稱
 
 jamesbank = Banks('James')                      # 定義Banks類別物件
 print("James's banks = ", jamesbank.bankname)   # 列印銀行名稱

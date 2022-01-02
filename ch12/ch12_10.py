@@ -1,7 +1,6 @@
 # ch12_10.py
 class Banks():
     ''' 定義銀行類別 '''
-
     def __init__(self, uname):              # 初始化方法
         self.__name = uname                 # 設定私有存款者名字
         self.__balance = 0                  # 設定私有開戶金額是0

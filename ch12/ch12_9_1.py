@@ -3,7 +3,7 @@
 
 class Father():
     def hometown(self):
-        print('我住在台北')
+        print('我住在雲林')
 
 class Son(Father):
     pass
@@ -12,6 +12,7 @@ hung = Father()
 ivan = Son()
 hung.hometown()
 ivan.hometown()
+
 
 
 
